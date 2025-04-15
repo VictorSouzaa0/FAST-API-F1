@@ -9,6 +9,7 @@ class CurrentSeason(BaseModel):
     podiums: int
     wdc: int
     wins: int
+    img: str
 
 class HallFame(BaseModel):
     id: Optional[int] = None
@@ -17,3 +18,4 @@ class HallFame(BaseModel):
     podiums: int
     wdc: int
     wins: int
+    img: str
